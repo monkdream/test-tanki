@@ -15,7 +15,7 @@ public:
 		x = X;
 		y = Y;
 		pos = Pos;
-		bullettexture.loadFromFile("images/bullet.png");
+		bullettexture.loadFromFile("../images/bullet.png");
 		bullet.setTexture(bullettexture);
 		bullet.setTextureRect(IntRect(0, 0, w, h));
 		bullet.setOrigin(w / 2, h);

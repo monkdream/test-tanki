@@ -11,7 +11,7 @@ class Tank
 		View view;
 		// default tank
 		Tank() {
-			tanktexture.loadFromFile("images/tank1.png");
+			tanktexture.loadFromFile("../images/tank1.png");
 			tank.setTexture(tanktexture);
 			tank.setTextureRect(IntRect(0, 0, w, h));		
 			tank.setPosition(x, y);		

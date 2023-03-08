@@ -8,7 +8,7 @@ public:
 	Sprite map;
 	Texture maptexture;
 	Map(){
-		maptexture.loadFromFile("images/wall.png");
+		maptexture.loadFromFile("../images/wall.png");
 		map.setTexture(maptexture);
 		map.setTextureRect(IntRect(0, 0, imageMapW, imageMapH));
 	};
