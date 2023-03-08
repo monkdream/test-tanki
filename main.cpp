@@ -8,7 +8,7 @@ using namespace sf;
 
 int main()
 {
-	RenderWindow window(VideoMode(1250, 816), L"Tan4iki");
+	RenderWindow window(VideoMode(1250, 816), L"Test task - tank");
 	Tank player;
 	Map mainmap;
 	Clock clock;
@@ -35,7 +35,6 @@ int main()
 			}
 		}
 		
-
 		for (bul = bullets.begin(); bul != bullets.end();)
 		{
 			Bullet* b = *bul;
@@ -65,13 +64,12 @@ int main()
 			}
 		}
 		
-		// отрисовываем пули
+		// draw bullets
 		for (bul = bullets.begin(); bul != bullets.end(); bul++) {
 			window.draw((*bul)->bullet);
 		}
 
-		window.draw(player.tank); // отрисовываем танк		
-
+		window.draw(player.tank); // draw the tank		
 		window.display();
 	}
 	return 0;
