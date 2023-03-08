@@ -8,7 +8,7 @@ using namespace sf;
 
 int main()
 {
-	RenderWindow window(VideoMode(1250, 816), L"Тестовое - танчики");
+	RenderWindow window(VideoMode(1250, 816), L"Tan4iki");
 	Tank player;
 	Map mainmap;
 	Clock clock;
